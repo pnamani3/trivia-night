@@ -18,14 +18,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/small_logo" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="347dp"
-        android:layout_height="473dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="69dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <com.google.android.gms.maps.MapView-->
+<!--        android:id="@+id/mapView"-->
+<!--        android:layout_width="347dp"-->
+<!--        android:layout_height="473dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginBottom="69dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+    <Button
+        android:id="@+id/btn_viewMap"
+        android:layout_width="142dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="152dp"
+        android:text="View Map"
+        android:onClick="launchMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <TextView
         android:id="@+id/textView2"
